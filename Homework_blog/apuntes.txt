@@ -1,0 +1,23 @@
+Start
+
+Lupita Pérez
+
+Medellín
+
+
+
+
+/*
+  Bg image: http://xinature.com/wp-content/uploads/2016/08/flowers-sunrise-purple-lavesnder-nature-lavender-sunset-lavendel-clouds-sky-field-flower-wallpaper-for-desktop-1920x1080.jpg
+  Cat image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxkKU5nAwXRBXkyQIUL4R_CN9hR1jpwmf4S7MUcTrw92-nWhb
+  Avatar: https://image.flaticon.com/icons/svg/146/146025.svg
+
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  
+  Colors:
+    orange: #e76022
+    blue: #00bcd4
+    red: #da312e
+    green: #61b812
+    yellow: #f1d445
+*/

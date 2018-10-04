@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+ }
+
+ .container{
+    display:flex;
+    width: 1024px;
+    height: 600px;
+    background-color:black;
+    background-position: absolute;
+    background-size: 100% 100%;
+ }
+
+ .mario{
+     width:50px;
+     height: 600px;
+}
+
+ .mario img{
+     width: 35px;
+     height: 50px;
+ }
+
+.container_mario_game{
+    width:974px;
+    height: 600px;
+    padding-right: 50px;
+    background-image: url("./images/mario_bross.jpg");
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+}
+
+.container_text{
+    width: 50%;
+    height: 20%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 1%;
+    position:absolute;
+ }
+
+ span{
+    color: white;
+    font-size: 13px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+ }
+
+ .scoring img{
+     width:20px;
+     height:20px;
+ }
+

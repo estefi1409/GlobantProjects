@@ -1,0 +1,197 @@
+/* ---------- PAGE LAYOUT ---------- */
+
+* {
+   box-sizing: border-box;
+}
+
+.container{
+   background: url("https://media.meltystyle.fr/article-3297258-ajust_930-f4990049/jaden-smith-pour-l-edition-ss16-de-gq-style.jpg")no-repeat;
+   background-size: 480px 630px;
+   height: 562px;
+   width: 480px;
+   position: relative;   
+   margin: 30px auto;
+}
+
+h1 .pre { 
+   position:absolute;
+   left:73px;
+   top: 55px;
+   z-index:100;
+   font-family: 'Raleway', sans-serif; 
+   font-size:9px;
+   text-transform: uppercase;
+}
+
+h1 .logo {  
+   position: absolute;
+   left:5px;
+   top:-25px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 160px;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px        black;
+   letter-spacing:-20px;
+}
+
+
+h1 .title { 
+   position:relative;
+   top: 25px;
+   right: -227px;
+   font-family: 'Sumana', serif; 
+   font-size: 90px;
+   text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+h2.subtitle { 
+   position:relative;
+   right: -230px;
+   top:-70px;
+   font-family: 'Sumana', serif; 
+   font-style: italic;
+   font-size: 13px;
+   font-weight: bold;
+   text-shadow: -0.5px 0 gray, 0 0.5px gray, 0.5px 0 gray, 0 -0.5px gray;
+}
+
+.up-left p.gq { 
+   position:relative;
+   margin-left:15px;
+   top:15px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 6px;
+   text-transform: uppercase;
+}
+
+.up-left h2{
+   position:relative;
+   top:18px;
+   margin-left:15px;
+   font-family: 'Rozha One', serif;
+   font-size:20px;
+}
+
+.up-left h2 span{
+   position:relative;
+   top:-10px;
+   font-size:50px;
+}
+
+.up-left p.uk { 
+   position:relative;
+   top:5px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 7px;
+   text-transform: uppercase;
+   margin-left:15px;
+}
+
+.up-left h4{ 
+   position: relative;
+   top:30px;
+   margin-left:15px;
+   font-family: 'Rozha One', serif;
+   font-size:20px;
+   color: white;
+   
+}
+
+.up-left h4 span{
+   background-color: black;
+   color: white;
+   display: inline-block;
+   margin-bottom: 2px;
+}   
+
+.up-left h4 span:last-of-type {
+   padding-top: 0.5px;
+}
+
+.up-right h3{
+   position:relative;
+   top: -180px;
+   right: -290px;
+   color: white;   
+   word-wrap: normal;
+   width:20px;
+   font-family:  serif;
+   font-size: 50px;
+   font-weight: 900;
+   letter-spacing:2px;
+}
+
+.low-left h4{
+   position: relative;
+   color: black;
+   width:40px;
+   bottom:-30px;
+   font-size:20px;
+   font-family: 'Rozha One', serif;
+   margin-left:15px;
+}
+
+.low-left h4 span{
+   background-color: white;
+   display: inline-block;
+   margin-bottom: 2px;
+}
+
+.low-right h4.block-text:nth-of-type(1){
+   position: relative;
+   bottom:170px;
+   right: -277px;
+}
+
+.low-right h4.block-text:nth-of-type(1) span:first-of-type {
+   -webkit-transform: rotate(-4deg);
+           transform: rotate(-4deg);
+}
+
+.low-right h4.block-text:nth-of-type(1) span:last-of-type{
+   margin-top: 20px;
+   -webkit-transform: rotate(5deg);
+           transform: rotate(5deg);
+}
+
+.low-right h4.block-text:nth-of-type(2){
+   position: relative;
+   bottom:195px;
+   right: -180px;
+   -webkit-transform: rotate(-17deg);
+           transform: rotate(-17deg);
+}
+
+.low-right h4.block-text:nth-of-type(3){
+   position: relative;
+   bottom:135px;
+   right: -320px;
+   -webkit-transform: rotate(5deg);
+           transform: rotate(5deg);
+}
+
+.low-right h4.block-text:nth-of-type(4){
+   position: relative;
+   bottom:135px;
+   right: -180px;
+   -webkit-transform: rotate(-5deg);
+           transform: rotate(-5deg);
+}
+
+h4.black span {
+   background-color: black;
+   color: white;
+   font-size:20px;
+   font-family: 'Rozha One', serif;
+}
+
+h4.white span {
+   background-color: white;
+   color: black;
+   font-size:20px;
+   font-family: 'Rozha One', serif;
+}
+
+.low-right h4.block-text.white span {
+   display: block;
+}

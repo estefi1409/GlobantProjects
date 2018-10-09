@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+ }
+
+    body{
+        background-image: url("./images/RockParty.jpg");
+        background-repeat: no-repeat;
+        background-position: relative;
+        background-size: 100% 100%;
+    }
+ .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1250px;
+    height: 520px;
+    margin-top: 5%;
+ }
+
+.Tecla-img{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 15%;
+    height: 25%;
+}
+
+.Tecla-img img{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.Tecla{
+    text-align: center;
+    font-size:3em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    text-shadow: 5px 5px black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clase-presionada{
+    border: 5px solid #FF00FF;
+    border-radius: 10%;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    text-shadow: 3px 3px #FF00FF;
+}   
+
+.clase-liberada{
+    border-radius: 10%;
+    opacity: none;
+}

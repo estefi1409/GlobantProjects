@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Music Rock party</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+
+        <audio id="audio65" src="./sounds/Kiss.wav"> </audio>
+        <audio id="audio83" src="./sounds/Metallica.wav"> </audio>
+        <audio id="audio68" src="./sounds/Ramones.wav"> </audio>
+        <audio id="audio70" src="./sounds/AcDc.wav"> </audio>
+        <audio id="audio71" src="./sounds/Blink182.mp3"> </audio>
+  
+    <div class="container">
+        <div class="Tecla-img" id="tecla65">
+            <img src="./images/kiss.jpg">
+            <div class="Tecla">A</div>
+        </div>
+        <div class="Tecla-img" id="tecla83">
+            <img src="./images/metallica.jpg">
+            <div class="Tecla">S</div>
+        </div>
+        <div class="Tecla-img"id="tecla68">
+            <img src="./images/ramones.jpg">
+            <div class="Tecla">D</div>
+        </div>
+        <div class="Tecla-img" id="tecla70">
+            <img src="./images/ac-dc.jpg">
+            <div class="Tecla">F</div>
+        </div>
+        <div class="Tecla-img" id="tecla71">
+            <img src="./images/blink182.jpg">
+            <div class="Tecla">G</div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarLaTecla(teclaPresionada) {
+            console.log(teclaPresionada.key, teclaPresionada.keyCode);
+            var miAudio = document.querySelector('#audio' + teclaPresionada.keyCode);
+            if (miAudio !== null) {
+                miAudio.currentTime = 0;
+                miAudio.play();
+            }
+            var miTecla = document.querySelector('#tecla' + teclaPresionada.keyCode);
+            miTecla.classList.add('clase-presionada');
+            setTimeout( function(){
+                miTecla.classList.remove('clase-presionada');
+                miTecla.classList.add('clase-liberada');
+            }, 400);
+
+        }
+        document.addEventListener('keydown', mostrarLaTecla);
+       </script>
+</body>
+</html>

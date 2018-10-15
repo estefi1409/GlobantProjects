@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Shadows+Into+Light');
+:root {
+    --wisp-pink-color: #FCE4FB;
+    --hollywood-color: #EC008C;
+    --tapestry-color: #B56270;
+    --zeus-color: #181510;
+    --solar-color: #1e2523;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--solar-color);
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 30px;
+    font-size: 150px;
+    color: #fff;
+    -webkit-animation: lightOn 3s ease-in-out infinite alternate;
+    animation: lightOn 3s ease-in-out infinite alternate;
+}
+
+@keyframes lightOn {
+  from {
+    text-shadow: 0 0 10px var(--wisp-pink-color),
+      0 0 20px var(--wisp-pink-color),
+      0 0 30px var(--hollywood-color),
+      0 0 40px var(--tapestry-color),
+      0 0 50px var(--hollywood-color),
+      0 0 60px var(--tapestry-color),
+      0 0 70px var(--hollywood-color),
+      0 0 80px var(--tapestry-color);
+  }
+  to {
+    text-shadow: 0 0 5px var(--wisp-pink-color),
+      0 0 10px var(--wisp-pink-color),
+      0 0 20px var(--hollywood-color),
+      0 0 30px var(--tapestry-color),
+      0 0 40px var(--hollywood-color),
+      0 0 50px var(--tapestry-color),
+      0 0 60px var(--hollywood-color),
+      0 0 70px var(--tapestry-color);
+  }
+}

@@ -75,8 +75,8 @@
 .contenedor-blocks{
 	position: absolute;
     width: 70%;
-    height: 40%;
-    margin-left: 2%;
+    height: 47%;
+    margin-left: 5%;
     margin-right: 2%;
 	margin-top: 12%;
     display: inline-blocks;
@@ -102,15 +102,15 @@
 .cuadro_verde{
     width:50%;
     height:49%;
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     background-color: #61b812;
 }
 
 .cuadro_amarillo{
     width:49%;
     height:49%;
-    margin-top: -41.5%;
-    margin-left: 1%;
+    margin-top: -52%;
+    margin-left: 1.5%;
     background-color: #f1d445;
     float: right;
 }
@@ -130,27 +130,28 @@
 }
 
 .cuadro_rojo_superior{
-    width:38%;
+    width:39%;
     height:49%;
     margin-left: 61%;
-    margin-top: -34%;
+    margin-top: -42%;
     background-color: #da312e;
 }
 
 .cuadro_rojo_inferior{
     width:39%;
     height:49%;
-    margin-top: 1%;
+    margin-top: 1.6%;
 	margin-left: 1%;
     background-color: #da312e;    
 }
 
 .gatito{
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxkKU5nAwXRBXkyQIUL4R_CN9hR1jpwmf4S7MUcTrw92-nWhb")no-repeat;
+    background-position: center;
     width: 57%;
     height: 49%;
     float: right;
-    margin-top: -33.5%;
+    margin-top: -42.5%;
 	margin-right: 1%;
 }
 
@@ -169,22 +170,22 @@
 .cuadro_verde_final{
     width: 49%;
     height: 49%;
-    margin-top: -41%;
+    margin-top: -52%;
     background-color: #61b812;	
     float: right;
 }
 
 .cuadro_amarillo_final{
     width: 49%;
-    height: 49%;
-    margin-top: 1%;
+    height: 48%;
+    margin-top: 2.5%;
     background-color: #f1d445;	
 }
 
 .cuadro_rojo_final{
     width: 49%;
-    height: 49%;
-    margin-top: -41%;
+    height: 48%;
+    margin-top: -51%;
     background-color: #da312e;
     float: right;	
 }

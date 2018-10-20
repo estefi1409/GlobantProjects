@@ -1,0 +1,159 @@
+nav{
+  background-color: rgb(163, 50, 50);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:0;
+  margin-bottom:0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(163, 50, 50);
+  width: 35%;
+  margin: auto;
+}
+
+nav ul a{
+  text-decoration: none;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  font-size:24px;
+  letter-spacing: 3px;
+  color: whitesmoke;
+  font-family: 'Pacifico', cursive;
+}
+
+nav ul li{
+  list-style-type: none;
+}
+
+.Home {
+  width: 100%;
+  height: 597px;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  position: relative; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;  
+}
+
+
+.AppList{
+  width: 100%;
+  height: 597px;
+  margin: auto;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 597px;
+  
+ }
+
+ .AppList::before{
+  width: 100%;
+  height: 597px;
+  content: '';
+  background-image: url('images/background.jpg');
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: absolute;
+ }
+
+.todoListMain{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.todoListMain .header form{
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 44%;
+  display: flex;
+  flex-direction: row;
+}
+
+form input{
+  width: 100%;
+  font-size: 15px;
+  
+}
+
+form button{
+  width: 40%;
+}
+
+.theList{
+  position: relative;
+  width: 44%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.taskItems{  
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  text-decoration:none;
+  border-radius: 5px;
+  border: 2px solid #af6363;
+  margin-top: 2%;
+  background-color:white;
+  align-items: center;
+}
+
+.taskItems li{
+  width: 90%;
+  list-style-type: none;
+}
+
+.taskItems button{
+  background-color: rgb(255, 30, 86);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:15px;
+}
+
+/* Darker background on mouse-over */
+.taskItems button:hover {
+  background-color: rgb(85, 8, 8);
+}
+
+form button{
+  background-color: rgb(255, 30, 86);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: rgb(85, 8, 8);
+}
+
